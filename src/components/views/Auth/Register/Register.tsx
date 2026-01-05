@@ -39,12 +39,12 @@ const Register = () => {
             </div>
             <Card>
                 <CardBody>
-                    <h2 className="text-xl font-bold text-danger-500">
+                    <h2 className="text-2xl font-bold text-danger-500">
                         Create Account
                     </h2>
-                    <p className="text-small">
+                    <p className="mb-4 mt-2 text-small">
                         Have an account?&nbsp;
-                        <Link href="/login" className="font-semibold text-danger-400">
+                        <Link href="/auth/login" className="font-semibold text-danger-400">
                             Login here
                         </Link>
                     </p>
