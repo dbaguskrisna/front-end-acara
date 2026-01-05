@@ -2,7 +2,6 @@ import "@/styles/globals.css";
 import { cn } from "@/utils/cn";
 import { NextUIProvider } from "@nextui-org/react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { query } from "express";
 import { Session } from "inspector/promises";
 import { SessionProvider } from "next-auth/react";
 import type { AppProps } from "next/app";

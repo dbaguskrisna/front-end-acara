@@ -7,7 +7,6 @@ import authServices from "@/services/auth.service";
 import { useMutation } from "@tanstack/react-query";
 import { useRouter } from "next/router";
 import { signIn } from "next-auth/react";
-import { query } from "express";
 
 const loginSchema = yup.object({
     identifier: yup.string().required("Please input your email or password"),
